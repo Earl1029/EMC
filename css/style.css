@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Bruno+Ace+SC&display=swap');
+
+/* Sideways Scroll UI */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 40;
+    height: 100%;
+    width: 60px;
+    background: transparent;
+    color: white;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.group:hover .scroll-arrow { opacity: 0.8; }
+.scroll-arrow:hover { color: #8024d1; opacity: 1 !important; }
+
+/* Navbar Hover */
+.nav-item {
+    color: inherit;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.nav-item:hover {
+    color: #8024d1;
+    text-shadow: 0 0 10px rgba(128, 36, 209, 0.5);
+}
+
+/* Card Hover Logic - revealed only on hover */
+.card-hover-placeholder {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    pointer-events: none;
+}
+.card-container:hover .card-hover-placeholder { opacity: 1; }
+
+/* Spotlight UI Buttons */
+.btn-spotlight {
+    padding: 0.75rem 2.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn-spotlight:hover { transform: translateY(-5px); filter: brightness(1.2); }
+.btn-spotlight:active { transform: scale(0.92); filter: brightness(1.4); }
+
+/* Prevent body scroll when video is open */
+.overflow-hidden { overflow: hidden; }
+
+/* Search Bar Transition logic */
+#search-input:not(:focus) {
+    pointer-events: none;
+}
+
+/* Movie details page background and scroll */
+#movie-details-page {
+    position: relative;
+    overflow-y: auto;
+}
+
+#movie-details-page .details-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(5,5,5,0.55), rgba(5,5,5,0.78));
+    pointer-events: none;
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+#movie-details-page .container {
+    position: relative;
+    z-index: 2;
+}
+
+.movie-details-hero {
+    position: relative;
+    min-height: calc(100vh - 6rem);
+    display: flex;
+    align-items: center;
+}
+
+.movie-details-hero h1 {
+    line-height: 1.1;
+}
+
+.movie-details-hero p {
+    max-width: 55ch;
+}
+
+.movie-details-hero .btn-spotlight {
+    min-width: 9rem;
+}
+
+.movie-details-bottom-box {
+    background: rgba(3, 3, 3, 0.45);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+
+.movie-info-box {
+    background: rgba(5, 5, 5, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 1rem;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.scroll-circle-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0.75rem 0.25rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scroll-circle-row::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scroll-circle-row::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.scroll-circle-row::-webkit-scrollbar-thumb {
+    background: rgba(128, 36, 209, 0.7);
+    border-radius: 999px;
+}
+
+.member-circle {
+    flex: 0 0 auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.member-circle:hover {
+    background: rgba(128, 36, 209, 0.2);
+    border-color: rgba(128, 36, 209, 0.5);
+    transform: scale(1.05);
+}
+
+.cast-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.member-role {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #fff;
+    opacity: 0.7;
+    max-width: 90px;
+    word-wrap: break-word;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.member-name {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #fff;
+    opacity: 0.9;
+    max-width: 90px;
+    word-wrap: break-word;
+    line-height: 1.2;
+}
+
+.spin-slow {
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

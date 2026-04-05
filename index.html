@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMC+ | Digital Archive</title>
+    <link rel="icon" href="assets/Icon/EMC+ Logo.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body" class="bg-[#050505] text-white font-['Agdasima'] transition-colors duration-500 overflow-x-hidden">
+
+    <header id="main-header" class="fixed top-0 w-full h-24 z-50 transition-all duration-300">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#8024d1]/30 via-[#8024d1]/15 to-transparent"></div>
+        <div class="relative flex justify-between items-center h-full px-[5%] z-10">
+            <div class="flex items-center gap-10">
+                <div class="text-3xl font-bold tracking-tighter uppercase">EMC<span class="text-yellow-400">+</span></div>
+                <nav class="hidden md:flex gap-8 text-xl">
+                    <a href="#" class="nav-item" data-page="home">Home</a>
+                    <a href="#" class="nav-item" data-page="my-list">My List</a>
+                    <a href="#" class="nav-item" data-page="history">History</a>
+                </nav>
+            </div>
+            <div class="flex items-center gap-6">
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-2xl">☰</button>
+                </div>
+                <div class="flex items-center">
+                    <input type="text" id="search-input" placeholder="Search films..." 
+                        class="w-0 opacity-0 bg-white/10 border border-white/20 rounded-full py-1 text-sm focus:outline-none focus:border-[#8024d1] transition-all duration-500 placeholder-gray-400 focus:w-48 md:focus:w-64 focus:opacity-100 focus:px-4 pr-8">
+                    <button id="clear-search-btn" class="hidden absolute right-12 text-white/60 hover:text-white text-sm mr-1">✕</button>
+                    <button id="search-btn" class="ml-2 text-2xl hover:scale-110 active:scale-95 transition" aria-label="Search films">🔍</button>
+                </div>
+                <div class="bg-red-600 w-8 h-8 flex items-center justify-center rounded-sm font-bold">A</div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-[#050505]/95 backdrop-blur-sm border-t border-white/10 md:hidden">
+            <nav class="flex flex-col py-4 px-[5%] gap-4">
+                <a href="#" class="nav-item text-lg py-2" data-page="home">Home</a>
+                <a href="#" class="nav-item text-lg py-2" data-page="my-list">My List</a>
+                <a href="#" class="nav-item text-lg py-2" data-page="history">History</a>
+            </nav>
+        </div>
+        </div>
+        <div class="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#8024d1] to-transparent opacity-50"></div>
+    </header>
+
+    <div id="home-content">
+    <main class="relative h-[110vh] w-full flex items-center px-[8%]">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-[#050505]/70 via-transparent to-transparent z-10"></div>
+            <img src="assets/Hero/CryMachineHero.svg" class="w-full h-full object-cover opacity-90" alt="Cry Machine Hero">
+        </div>
+        <section class="relative z-20 max-w-2xl">
+            <h1 class="font-['Anta'] text-6xl md:text-8xl mb-4 tracking-widest uppercase title-text">Cry Machine</h1>
+            <div class="flex items-center gap-4 text-xl mb-6 text-gray-400">
+                <span>2025</span>
+                <span class="px-3 py-0.5 border border-white/20 rounded-full text-sm">Movie</span>
+                <span class="px-3 py-0.5 border border-white/20 rounded-sm text-sm">R-16</span>
+                <span>39m</span>
+            </div>
+            <p class="text-lg text-gray-300 mb-8 leading-relaxed description-text">"In the heart of the Megacity, a betrayed agent goes berserk. Fueled by rage and high-tech weaponry, he wages a one-man war against the corporation that erased his past. Driven by the singular, desperate hope that his wife is still alive, he will tear through anyone in his way to save her from the that being that took everything."</p>
+            <div class="flex gap-4">
+                <button id="play-btn" class="btn-spotlight bg-[#8024d1] shadow-[0_0_20px_rgba(128,36,209,0.4)]" aria-label="Play Cry Machine trailer">▶ PLAY</button>
+                <button id="more-info-btn" class="btn-spotlight bg-gray-500/40 hover:bg-gray-500/60 transition" aria-label="More info about Cry Machine">More Info</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="relative z-30 -mt-12 space-y-16 pb-20 bg-gradient-to-b from-[#170021]">
+        <section class="relative group w-full overflow-hidden">
+            <h2 class="text-3xl font-bold text-white mb-6 px-[5%]">Recommended</h2>
+            <button class="scroll-arrow left-0" data-row="rec-row" data-dir="left" aria-label="Scroll recommended left">❮</button>
+            <button class="scroll-arrow right-0" data-row="rec-row" data-dir="right" aria-label="Scroll recommended right">❯</button>
+            <div id="rec-row" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth w-full px-[5%]"></div>
+        </section>
+
+        <section class="relative group w-full overflow-hidden">
+            <h3 class="text-4xl mb-6 font-light px-[5%] genre-title">Romance</h3>
+            <button class="scroll-arrow left-0" data-row="romance-row" data-dir="left" aria-label="Scroll romance left">❮</button>
+            <button class="scroll-arrow right-0" data-row="romance-row" data-dir="right" aria-label="Scroll romance right">❯</button>
+            <div id="romance-row" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth w-full px-[5%]"></div>
+        </section>
+
+        <section class="relative group w-full overflow-hidden">
+            <h3 class="text-4xl mb-6 font-light px-[5%] genre-title">Action</h3>
+            <button class="scroll-arrow left-0" data-row="action-row" data-dir="left" aria-label="Scroll action left">❮</button>
+            <button class="scroll-arrow right-0" data-row="action-row" data-dir="right" aria-label="Scroll action right">❯</button>
+            <div id="action-row" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth w-full px-[5%]"></div>
+        </section>
+
+        <section class="relative group w-full overflow-hidden">
+            <h3 class="text-4xl mb-6 font-light px-[5%] genre-title">Horror</h3>
+            <button class="scroll-arrow left-0" data-row="horror-row" data-dir="left" aria-label="Scroll horror left">❮</button>
+            <button class="scroll-arrow right-0" data-row="horror-row" data-dir="right" aria-label="Scroll horror right">❯</button>
+            <div id="horror-row" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth w-full px-[5%]"></div>
+        </section>
+
+        <section class="relative group w-full overflow-hidden">
+            <h3 class="text-4xl mb-6 font-light px-[5%] genre-title">Comedy</h3>
+            <button class="scroll-arrow left-0" data-row="comedy-row" data-dir="left" aria-label="Scroll comedy left">❮</button>
+            <button class="scroll-arrow right-0" data-row="comedy-row" data-dir="right" aria-label="Scroll comedy right">❯</button>
+            <div id="comedy-row" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth w-full px-[5%]"></div>
+        </section>
+
+        <section class="relative group w-full overflow-hidden">
+            <h3 class="text-4xl mb-6 font-light px-[5%] genre-title">Thriller</h3>
+            <button class="scroll-arrow left-0" data-row="thriller-row" data-dir="left" aria-label="Scroll thriller left">❮</button>
+            <button class="scroll-arrow right-0" data-row="thriller-row" data-dir="right" aria-label="Scroll thriller right">❯</button>
+            <div id="thriller-row" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth w-full px-[5%]"></div>
+        </section>
+
+        <section class="relative group w-full overflow-hidden">
+            <h3 class="text-4xl mb-6 font-light px-[5%] genre-title">Drama</h3>
+            <button class="scroll-arrow left-0" data-row="drama-row" data-dir="left" aria-label="Scroll drama left">❮</button>
+            <button class="scroll-arrow right-0" data-row="drama-row" data-dir="right" aria-label="Scroll drama right">❯</button>
+            <div id="drama-row" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth w-full px-[5%]"></div>
+        </section>
+    </div>
+    </div>
+
+    <div id="video-modal" class="fixed inset-0 z-[100] hidden bg-black flex items-center justify-center p-0">
+        <button id="close-modal" class="absolute top-4 right-4 text-white text-5xl hover:text-[#8024d1] transition z-20">&times;</button>
+        <div class="w-full h-full bg-black overflow-hidden">
+            <iframe id="youtube-player" class="w-full h-full" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="intro-modal" class="fixed inset-0 z-[110] hidden bg-black flex items-center justify-center p-0">
+        <button id="skip-intro-btn" class="absolute bottom-4 right-4 text-white text-xl px-4 py-2 bg-white/10 hover:bg-white/20 rounded transition z-20">Skip Intro</button>
+        <div class="w-full h-full bg-black overflow-hidden">
+            <video id="intro-video" class="w-full h-full object-cover" playsinline autoplay muted preload="auto">
+                <source src="assets/EMC+%20intro/Intro.mp4" type="video/mp4">
+                Your browser does not support the intro video.
+            </video>
+        </div>
+    </div>
+
+    <div id="my-list-page" class="hidden min-h-screen bg-[#050505] flex items-center justify-center">
+        <div class="text-center text-white">
+            <h1 class="text-4xl font-bold mb-4">My List</h1>
+            <p class="text-xl">Your list is empty.</p>
+            <button id="back-home-from-list" class="mt-4 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+        </div>
+    </div>
+
+    <div id="history-page" class="hidden min-h-screen bg-[#050505] flex items-center justify-center">
+        <div class="text-center text-white">
+            <h1 class="text-4xl font-bold mb-4">History</h1>
+            <p class="text-xl">No history available.</p>
+            <button id="back-home-from-history" class="mt-4 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+        </div>
+    </div>
+
+    <div id="movie-details-page" class="hidden min-h-screen text-white overflow-y-auto">
+        <div class="details-overlay"></div>
+
+        <section class="movie-details-hero min-h-screen flex items-center">
+            <div class="container mx-auto px-4 py-12">
+                <button id="back-home-from-details" class="mb-6 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+                <div class="grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <h1 id="details-title" class="font-['Anta'] text-6xl md:text-8xl mb-4 tracking-widest uppercase">Cry Machine</h1>
+                        <div class="flex flex-wrap items-center gap-4 text-xl mb-6 text-gray-300">
+                            <span id="details-year">2025</span>
+                            <span id="details-type" class="px-3 py-0.5 border border-white/20 rounded-full text-sm">Movie</span>
+                            <span id="details-rating" class="px-3 py-0.5 border border-white/20 rounded-full text-sm">R-16</span>
+                            <span id="details-dur">39m</span>
+                        </div>
+                        <div id="details-tags" class="flex flex-wrap items-center gap-2 mb-6">
+                            <span class="px-2 py-1 text-xs bg-[#8024d1]/40 rounded-full">Action</span>
+                            <span class="px-2 py-1 text-xs bg-[#00d1ff]/30 rounded-full">Sci-Fi</span>
+                        </div>
+                        <p id="details-desc" class="text-lg md:text-xl text-white/85 mb-8 leading-relaxed">"In the heart of the Megacity, a betrayed agent goes berserk. Fueled by rage and high-tech weaponry, he wages a one-man war against the corporation that erased his past. Driven by the singular, desperate hope that his wife is still alive, he will tear through anyone in his way."</p>
+                        <div class="flex flex-wrap gap-4">
+                            <button id="play-btn-details" class="btn-spotlight bg-[#8024d1] shadow-[0_0_20px_rgba(128,36,209,0.4)]" aria-label="Play movie trailer">▶ PLAY</button>
+                            <button id="add-to-list-btn" class="btn-spotlight bg-white/10 hover:bg-white/20 text-white" aria-label="Add to my list">Add to My List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-4 py-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+                <div class="movie-info-box">
+                    <h2 class="text-2xl font-bold mb-4">Cast & Crew</h2>
+                    <div class="relative group">
+                        <button class="scroll-arrow left-0" data-row="details-cast-row" data-dir="left" aria-label="Scroll cast left">❮</button>
+                        <button class="scroll-arrow right-0" data-row="details-cast-row" data-dir="right" aria-label="Scroll cast right">❯</button>
+                        <div id="details-cast-row" class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Director</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Director" alt="Director" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Pocdol</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Lead</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Actor" alt="Lead Actor" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Actor A</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Support</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Actor" alt="Support Actor" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Actor B</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Antagonist</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Corp+Boss" alt="Antagonist" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Corp Boss</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Ally</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Tech+Expert" alt="Ally" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Tech Expert</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Wife</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Lost+Love" alt="Wife" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Lost Love</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Corporation Rep</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Suit+One" alt="Corporation Rep" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Suit One</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Corporation Rep</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Suit+Two" alt="Corporation Rep" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Suit Two</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Mercenary</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Gun+For+Hire" alt="Mercenary" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Gun For Hire</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Hacker</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Data+Thief" alt="Hacker" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Data Thief</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Scientist</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Lab+Rat" alt="Scientist" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Lab Rat</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Voice Over</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=System+AI" alt="Voice Over" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">System AI</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Stunt Team</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Action+Pros" alt="Stunt Team" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Action Pros</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">VFX Team</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Visual+Masters" alt="VFX Team" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Visual Masters</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Sound Team</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Audio+Wizards" alt="Sound Team" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Audio Wizards</div>
+                            </div>
+                            <div class="cast-member flex-shrink-0">
+                                <div class="member-role">Editor</div>
+                                <div class="member-circle">
+                                    <img src="https://via.placeholder.com/80x80/333/666?text=Cut+Master" alt="Editor" class="w-full h-full object-cover rounded-full">
+                                </div>
+                                <div class="member-name">Cut Master</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center lg:justify-end lg:-mt-[36rem]">
+                    <img id="details-poster" src="assets/Discs/Crymachine.svg" alt="Cry Machine" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x337/222/555?text='+encodeURIComponent(this.alt)" class="w-[60rem] h-[60rem] xl:w-[60rem] xl:h-[60rem] translate-x-10 xl:translate-x-14 translate-y-0 xl:translate-y-0 object-contain spin-slow" />
+                </div>
+            </div>
+            <div class="movie-details-bottom-box mt-0 pt-0 -mt-[200rem] relative">
+                <h2 class="text-3xl font-bold mb-4">You might also like</h2>
+                <div class="relative group w-full overflow-hidden">
+                    <button class="scroll-arrow left-0" data-row="details-rec-row" data-dir="left" aria-label="Scroll recommendations left">❮</button>
+                    <button class="scroll-arrow right-0" data-row="details-rec-row" data-dir="right" aria-label="Scroll recommendations right">❯</button>
+                    <div id="details-rec-row" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth w-full"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/Main.js"></script>
+</body>
+</html>
