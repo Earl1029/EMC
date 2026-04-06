@@ -477,7 +477,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/F6SH5XTO5EY?si=h5bLz9So8iCERaty",
-        poster: "assets/posters/CryMachine.svg",
+        poster: "assets/posters/CryMachine.jpg",
         card: "assets/Cards/CryMachine.svg",
         disc: "assets/Discs/Crymachine.svg",
         font: "Anta"
