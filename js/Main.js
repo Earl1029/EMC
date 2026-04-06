@@ -64,7 +64,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/_SECsdLt7gc?si=_gkm_d_gszpQB-Gr",
-        poster: "assets/posters/MyHeartIsYoure.svg",
+        poster: "assets/posters/MyHeartIsYoure.jpg",
         card: "assets/Cards/MyHeartIsYoure.svg",
         disc: "assets/Discs/MyHeartIsYoure.svg",
         font: "Bradley Hand ITC"
@@ -189,7 +189,7 @@ const archives = [
 
         ],
         youtubeId: "https://tube.rvere.com/embed?v=mph5TLkYW5Q",
-        poster: "assets/posters/TheGoodTheBadAndTheDevil.svg",
+        poster: "assets/posters/TheGoodTheBadAndTheDevil.jpg",
         card: "assets/Cards/TGTBATD.svg",
         disc: "assets/Discs/TheGoodTheBadAndTheDevil.svg",
         font: "Bradley Hand ITC"
@@ -234,7 +234,7 @@ const archives = [
             
         ],
         youtubeId: "https://www.youtube-nocookie.com/embed/ZY1V_wBaSVM?si=6XF4lhVFQQ8kRCGX",
-        poster: "assets/posters/Oversharing.svg",
+        poster: "assets/posters/Oversharing.jpg",
         card: "assets/Cards/Oversharing.svg",
         disc: "assets/Discs/Oversharing.svg",
         font: "Bruno Ace SC"
@@ -289,7 +289,7 @@ const archives = [
             
         ],
         youtubeId: "https://www.youtube.com/embed/gH5biGh0Vnk?si=zQSpu6lQ5JkIla3A",
-        poster: "assets/posters/Buloy.svg",
+        poster: "assets/posters/Buloy.jpg",
         card: "assets/Cards/Buloy.svg",
         disc: "assets/Discs/Buloy.svg",
         font: "BhuTuka Expanded One"
@@ -328,7 +328,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=K8KWutDe9VE&start=0",
-        poster: "assets/posters/Tagulan.svg",
+        poster: "assets/posters/Tagulan.jpg",
         card: "assets/Cards/TagUlan.svg",
         disc: "assets/Discs/TagUlan.svg",
         font: "Crushed, Regular"
@@ -378,7 +378,7 @@ const archives = [
            
         ],
         youtubeId: "https://tube.rvere.com/embed?v=o2-d2rpsIt0&start=0",
-        poster: "assets/posters/Grace.svg",
+        poster: "assets/posters/Grace.jpg",
         card: "assets/Cards/Grace.svg",
         disc: "assets/Discs/Grace.svg",
         font: "Diphylleia"
@@ -477,7 +477,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/F6SH5XTO5EY?si=h5bLz9So8iCERaty",
-        poster: "assets/Posters/CryMachinej.jpg",
+        poster: "assets/Posters/CryMachine.jpg",
         card: "assets/Cards/CryMachine.svg",
         disc: "assets/Discs/Crymachine.svg",
         font: "Anta"
@@ -563,7 +563,7 @@ const archives = [
             
         ],
         youtubeId: "https://tube.rvere.com/embed?v=bd6MdEXoBPQ&start=0",
-        poster: "assets/posters/UnseenSelf.svg",
+        poster: "assets/posters/UnseenSelf.jpg",
         card: "assets/Cards/UnseenSelf.svg",
         disc: "assets/Discs/UnseenSelf.svg",
         font: "Zeyada"
@@ -627,7 +627,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=SNgKOxlOYa4&start=0",
-        poster: "assets/posters/Kaulayaw.svg",
+        poster: "assets/posters/Kaulayaw.jpg",
         card: "assets/Cards/Kaulayaw.svg",
         disc: "assets/Discs/Kaulayaw.svg",
         font: "Homemade Apple"
@@ -666,7 +666,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/sUt2Otvdz4g?si=-R6jVFHveMRinOMS",
-        poster: "assets/posters/IkawParin.svg",
+        poster: "assets/posters/IkawParin.jpg",
         card: "assets/Cards/IkawParin.svg",
         disc: "assets/Discs/IkawParin.svg",
         font: "Geostar Fill"
@@ -705,7 +705,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=qogSJywDi7w&start=0",
-        poster: "assets/posters/7Minutes.svg",
+        poster: "assets/posters/7Minutes.jpg",
         card: "assets/Cards/7Minutes.svg",
         disc: "assets/Discs/7Minutes.svg",
         font: "Digital Numbers, Regular"
@@ -744,7 +744,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/Ook6Voyf6oI?si=swZ9efx8aiNE7rht",
-        poster: "assets/posters/SNAB.svg",
+        poster: "assets/posters/SNAB.jpg",
         card: "assets/Cards/SNAB.svg",
         disc: "assets/Discs/SNAB.svg",
         font: "Bungee Hairline, Regular"
@@ -788,7 +788,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/wubkQ8TAesI?si=hD5vv7le-w_7hMN3",
-        poster: "assets/posters/TheLastGame.svg",
+        poster: "assets/posters/TheLastGame.jpg",
         card: "assets/Cards/TheLastGame.svg",
         disc: "assets/Discs/TheLastGame.svg",
         font: "Allison, Regular"
@@ -827,7 +827,7 @@ const archives = [
             }
         ],
         youtubeId: "",
-        poster: "assets/posters/TakeOut.svg",
+        poster: "assets/posters/TakeOut.jpg",
         card: "assets/Cards/TakeOut.svg",
         disc: "assets/Discs/TakeOut.svg",
         font: "Island Moments, Regular"
@@ -891,7 +891,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/-WZg3TZDIEU?si=MGsl-mrJ4Oyb1FsA",
-        poster: "assets/posters/OnlyIf.svg",
+        poster: "assets/posters/OnlyIf.jpg",
         card: "assets/Cards/OnlyIf.svg",
         disc: "assets/Discs/OnlyIf.svg",
         font: "Crimson Text, Regular"
@@ -930,7 +930,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=BRGaVyEYoSI&start=0",
-        poster: "assets/posters/Chances.svg",
+        poster: "assets/posters/Chances.jpg",
         card: "assets/Cards/Chances.svg",
         disc: "assets/Discs/Chances.svg",
         font: "Delicious Handrawn, Regular"
@@ -1019,7 +1019,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=haONE1pUfeI&start=0",
-        poster: "assets/posters/ThreeHits.svg",
+        poster: "assets/posters/ThreeHits.jpg",
         card: "assets/Cards/ThreeHits.svg",
         disc: "assets/Discs/ThreeHits.svg",
         font: "Faster One, Regular"
@@ -1068,7 +1068,7 @@ const archives = [
             },
         ],
         youtubeId: "https://tube.rvere.com/embed?v=xOP80ydBqC8&start=0",
-        poster: "assets/posters/Anhedonia.svg",
+        poster: "assets/posters/Anhedonia.jpg",
         card: "assets/Cards/Anhedonia.svg",
         disc: "assets/Discs/Anhedonia.svg",
         font: "Finger Paint, Regular"
@@ -1097,7 +1097,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/T5JIrlKGuiE?si=JYh6lMoEA78vOAL5",
-        poster: "assets/posters/TheLastSeat.svg",
+        poster: "assets/posters/TheLastSeat.jpg",
         card: "assets/Cards/TheLastSeat.svg",
         disc: "assets/Discs/TheLastSeat.svg",
         font: "Ephesis, Regular"
@@ -1151,7 +1151,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=_LIs6Crta1I&start=0",
-        poster: "assets/posters/Hiraya.svg",
+        poster: "assets/posters/Hiraya.jpg",
         card: "assets/Cards/Hiraya.svg",
         disc: "assets/Discs/Hiraya.svg",
         font: "Figma Hand, Regular"
@@ -1190,7 +1190,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/gBaZiDkZ1sQ?si=ZkPP4xlVNBaBVmIj",
-        poster: "assets/posters/WakeUpCall.svg",
+        poster: "assets/posters/WakeUpCall.jpg",
         card: "assets/Cards/WakeUpCall.svg",
         disc: "assets/Discs/WakeUpCall.svg",
         font: "Dokdo, Regular"
@@ -1229,7 +1229,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/C5pwbDFvzuE?si=CO9f99btp9iuVvBS",
-        poster: "assets/posters/Classroom.svg",
+        poster: "assets/posters/Classroom.jpg",
         card: "assets/Cards/Classroom.svg",
         disc: "assets/Discs/Classroom.svg",
         font: "Geostar Fill, Regular"
@@ -1268,7 +1268,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/CJ3A7KAYeiA?si=tqox2IUSfWg9muhA",
-        poster: "assets/posters/NKPBI.svg",
+        poster: "assets/posters/NKPBI.jpg",
         card: "assets/Cards/NKPBI.svg",
         disc: "assets/Discs/NKPBI.svg",
         font: "East Sea Dokdo, Regular"
@@ -1371,7 +1371,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=ofGdlmDYTZs&start=0",
-        poster: "assets/posters/Pugante.svg",
+        poster: "assets/posters/Pugante.jpg",
         card: "assets/Cards/Pugante.svg",
         disc: "assets/Discs/Pugante.svg",
         font: "Diplomata, Regular"
@@ -2131,18 +2131,18 @@ function showMyList() {
     
     if (myList.length === 0) {
         content.innerHTML = `
-            <h1 class="text-4xl font-bold mb-4">My List</h1>
-            <p class="text-xl">Your list is empty.</p>
-            <button id="back-home-from-list" class="-mt-2 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+            <h1 class="text-4xl font-bold mb-4 mt-8">My List</h1>
+            <p class="text-xl mb-6">Your list is empty.</p>
+            <button id="back-home-from-list" class="-mt-2 mb-4 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
         `;
     } else {
         const movies = myList.map(title => archives.find(m => m.title === title)).filter(Boolean);
         content.innerHTML = `
-            <h1 class="text-4xl font-bold mb-6">My List</h1>
+            <h1 class="text-4xl font-bold mb-6 mt-8">My List</h1>
             <div class="space-y-4 max-w-4xl mx-auto">
                 ${movies.map(p => createBarItem(p)).join('')}
             </div>
-            <button id="back-home-from-list" class="-mt-2 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+            <button id="back-home-from-list" class="-mt-2 mb-4 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
         `;
     }
     
@@ -2165,18 +2165,18 @@ function showHistory() {
     
     if (history.length === 0) {
         content.innerHTML = `
-            <h1 class="text-4xl font-bold mb-4">History</h1>
-            <p class="text-xl">No history available.</p>
-            <button id="back-home-from-history" class="-mt-2 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+            <h1 class="text-4xl font-bold mb-4 mt-8">History</h1>
+            <p class="text-xl mb-6">No history available.</p>
+            <button id="back-home-from-history" class="-mt-2 mb-4 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
         `;
     } else {
         const movies = history.map(title => archives.find(m => m.title === title)).filter(Boolean);
         content.innerHTML = `
-            <h1 class="text-4xl font-bold mb-6">History</h1>
+            <h1 class="text-4xl font-bold mb-6 mt-8">History</h1>
             <div class="space-y-4 max-w-4xl mx-auto">
                 ${movies.map(p => createBarItem(p)).join('')}
             </div>
-            <button id="back-home-from-history" class="-mt-2 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+            <button id="back-home-from-history" class="-mt-2 mb-4 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
         `;
     }
     
