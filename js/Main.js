@@ -64,7 +64,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/_SECsdLt7gc?si=_gkm_d_gszpQB-Gr",
-        poster: "assets/posters/MyHeartIsYoure.jpg",
+        poster: "assets/Posters/MyHeartIsYoure.jpg",
         card: "assets/Cards/MyHeartIsYoure.svg",
         disc: "assets/Discs/MyHeartIsYoure.svg",
         font: "Bradley Hand ITC"
@@ -189,7 +189,7 @@ const archives = [
 
         ],
         youtubeId: "https://tube.rvere.com/embed?v=mph5TLkYW5Q",
-        poster: "assets/posters/TGTBATD.jpg",
+        poster: "assets/Posters/TGTBATD.jpg",
         card: "assets/Cards/TGTBATD.svg",
         disc: "assets/Discs/TheGoodTheBadAndTheDevil.svg",
         font: "Bradley Hand ITC"
@@ -234,7 +234,7 @@ const archives = [
             
         ],
         youtubeId: "https://www.youtube-nocookie.com/embed/ZY1V_wBaSVM?si=6XF4lhVFQQ8kRCGX",
-        poster: "assets/posters/Oversharing.jpg",
+        poster: "assets/Posters/Oversharing.jpg",
         card: "assets/Cards/Oversharing.svg",
         disc: "assets/Discs/Oversharing.svg",
         font: "Bruno Ace SC"
@@ -289,7 +289,7 @@ const archives = [
             
         ],
         youtubeId: "https://www.youtube.com/embed/gH5biGh0Vnk?si=zQSpu6lQ5JkIla3A",
-        poster: "assets/posters/Buloy.jpg",
+        poster: "assets/Posters/Buloy.jpg",
         card: "assets/Cards/Buloy.svg",
         disc: "assets/Discs/Buloy.svg",
         font: "BhuTuka Expanded One"
@@ -328,7 +328,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=K8KWutDe9VE&start=0",
-        poster: "assets/posters/Tagulan.jpg",
+        poster: "assets/Posters/TagUlan.jpg",
         card: "assets/Cards/TagUlan.svg",
         disc: "assets/Discs/TagUlan.svg",
         font: "Crushed, Regular"
@@ -378,7 +378,7 @@ const archives = [
            
         ],
         youtubeId: "https://tube.rvere.com/embed?v=o2-d2rpsIt0&start=0",
-        poster: "assets/posters/Grace.jpg",
+        poster: "assets/Posters/Grace.jpg",
         card: "assets/Cards/Grace.svg",
         disc: "assets/Discs/Grace.svg",
         font: "Diphylleia"
@@ -477,7 +477,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/F6SH5XTO5EY?si=h5bLz9So8iCERaty",
-        poster: "assets/Posters/CryMachine.jpg",
+        poster: "assets/Posters/Crymachine.jpg",
         card: "assets/Cards/CryMachine.svg",
         disc: "assets/Discs/Crymachine.svg",
         font: "Anta"
@@ -563,7 +563,7 @@ const archives = [
             
         ],
         youtubeId: "https://tube.rvere.com/embed?v=bd6MdEXoBPQ&start=0",
-        poster: "assets/posters/UnseenSelf.jpg",
+        poster: "assets/Posters/UnseenSelf.jpg",
         card: "assets/Cards/UnseenSelf.svg",
         disc: "assets/Discs/UnseenSelf.svg",
         font: "Zeyada"
@@ -627,7 +627,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=SNgKOxlOYa4&start=0",
-        poster: "assets/posters/Kaulayaw.jpg",
+        poster: "assets/Posters/Kaulayaw.jpg",
         card: "assets/Cards/Kaulayaw.svg",
         disc: "assets/Discs/Kaulayaw.svg",
         font: "Homemade Apple"
@@ -666,7 +666,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/sUt2Otvdz4g?si=-R6jVFHveMRinOMS",
-        poster: "assets/posters/IkawParin.jpg",
+        poster: "assets/Posters/IkawParin.jpg",
         card: "assets/Cards/IkawParin.svg",
         disc: "assets/Discs/IkawParin.svg",
         font: "Geostar Fill"
@@ -705,7 +705,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=qogSJywDi7w&start=0",
-        poster: "assets/posters/7Minutes.jpg",
+        poster: "assets/Posters/7Minutes.jpg",
         card: "assets/Cards/7Minutes.svg",
         disc: "assets/Discs/7Minutes.svg",
         font: "Digital Numbers, Regular"
@@ -744,7 +744,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/Ook6Voyf6oI?si=swZ9efx8aiNE7rht",
-        poster: "assets/posters/SNAB.jpg",
+        poster: "assets/Posters/SNAB.jpg",
         card: "assets/Cards/SNAB.svg",
         disc: "assets/Discs/SNAB.svg",
         font: "Bungee Hairline, Regular"
@@ -788,7 +788,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/wubkQ8TAesI?si=hD5vv7le-w_7hMN3",
-        poster: "assets/posters/TheLastGame.jpg",
+        poster: "assets/Posters/TheLastGame.jpg",
         card: "assets/Cards/TheLastGame.svg",
         disc: "assets/Discs/TheLastGame.svg",
         font: "Allison, Regular"
@@ -827,7 +827,7 @@ const archives = [
             }
         ],
         youtubeId: "",
-        poster: "assets/posters/TakeOut.jpg",
+        poster: "assets/Posters/TakeOut.jpg",
         card: "assets/Cards/TakeOut.svg",
         disc: "assets/Discs/TakeOut.svg",
         font: "Island Moments, Regular"
@@ -891,7 +891,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/-WZg3TZDIEU?si=MGsl-mrJ4Oyb1FsA",
-        poster: "assets/posters/OnlyIf.jpg",
+        poster: "assets/Posters/OnlyIf.jpg",
         card: "assets/Cards/OnlyIf.svg",
         disc: "assets/Discs/OnlyIf.svg",
         font: "Crimson Text, Regular"
@@ -930,7 +930,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=BRGaVyEYoSI&start=0",
-        poster: "assets/posters/Chances.jpg",
+        poster: "assets/Posters/Chances.jpg",
         card: "assets/Cards/Chances.svg",
         disc: "assets/Discs/Chances.svg",
         font: "Delicious Handrawn, Regular"
@@ -1019,7 +1019,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=haONE1pUfeI&start=0",
-        poster: "assets/posters/ThreeHits.jpg",
+        poster: "assets/Posters/ThreeHits.jpg",
         card: "assets/Cards/ThreeHits.svg",
         disc: "assets/Discs/ThreeHits.svg",
         font: "Faster One, Regular"
@@ -1068,7 +1068,7 @@ const archives = [
             },
         ],
         youtubeId: "https://tube.rvere.com/embed?v=xOP80ydBqC8&start=0",
-        poster: "assets/posters/Anhedonia.jpg",
+        poster: "assets/Posters/Anhedonia.jpg",
         card: "assets/Cards/Anhedonia.svg",
         disc: "assets/Discs/Anhedonia.svg",
         font: "Finger Paint, Regular"
@@ -1097,7 +1097,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/T5JIrlKGuiE?si=JYh6lMoEA78vOAL5",
-        poster: "assets/posters/TheLastSeat.jpg",
+        poster: "assets/Posters/TheLastSeat.jpg",
         card: "assets/Cards/TheLastSeat.svg",
         disc: "assets/Discs/TheLastSeat.svg",
         font: "Ephesis, Regular"
@@ -1151,7 +1151,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=_LIs6Crta1I&start=0",
-        poster: "assets/posters/Hiraya.jpg",
+        poster: "assets/Posters/Hiraya.jpg",
         card: "assets/Cards/Hiraya.svg",
         disc: "assets/Discs/Hiraya.svg",
         font: "Figma Hand, Regular"
@@ -1190,7 +1190,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/gBaZiDkZ1sQ?si=ZkPP4xlVNBaBVmIj",
-        poster: "assets/posters/WakeUpCall.jpg",
+        poster: "assets/Posters/WakeUpCall.jpg",
         card: "assets/Cards/WakeUpCall.svg",
         disc: "assets/Discs/WakeUpCall.svg",
         font: "Dokdo, Regular"
@@ -1229,7 +1229,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/C5pwbDFvzuE?si=CO9f99btp9iuVvBS",
-        poster: "assets/posters/Classroom.jpg",
+        poster: "assets/Posters/Classroom.jpg",
         card: "assets/Cards/Classroom.svg",
         disc: "assets/Discs/Classroom.svg",
         font: "Geostar Fill, Regular"
@@ -1268,7 +1268,7 @@ const archives = [
             }
         ],
         youtubeId: "https://www.youtube.com/embed/CJ3A7KAYeiA?si=tqox2IUSfWg9muhA",
-        poster: "assets/posters/NKPBI.jpg",
+        poster: "assets/Posters/NKPBI.jpg",
         card: "assets/Cards/NKPBI.svg",
         disc: "assets/Discs/NKPBI.svg",
         font: "East Sea Dokdo, Regular"
@@ -1371,7 +1371,7 @@ const archives = [
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=ofGdlmDYTZs&start=0",
-        poster: "assets/posters/Pugante.jpg",
+        poster: "assets/Posters/Pugante.jpg",
         card: "assets/Cards/Pugante.svg",
         disc: "assets/Discs/Pugante.svg",
         font: "Diplomata, Regular"
