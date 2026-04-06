@@ -189,7 +189,7 @@ const archives = [
 
         ],
         youtubeId: "https://tube.rvere.com/embed?v=mph5TLkYW5Q",
-        poster: "assets/posters/TheGoodTheBadAndTheDevil.jpg",
+        poster: "assets/posters/TGTBATD.jpg",
         card: "assets/Cards/TGTBATD.svg",
         disc: "assets/Discs/TheGoodTheBadAndTheDevil.svg",
         font: "Bradley Hand ITC"
