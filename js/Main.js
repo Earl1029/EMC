@@ -593,7 +593,7 @@ const archives = [
             {
                 role: "Director /Scriptwriter",
                 name: "Angel Grace S. Vertudazo",
-                image: "assets/Casts & Crews/vertudazo.svg"
+                image: "assets/Casts & Crews/Vertudazo.svg"
             },
             {
                 role: "Side Character",
@@ -603,7 +603,7 @@ const archives = [
             {
                 role: "Side Character",
                 name: "Arr Chile Andrhei P. Evangelista as Student 2",
-                image: "assets/Casts & Crews/evangelista.svg"
+                image: "assets/Casts & Crews/Evangelista.svg"
             },
             {
                 role: "Side Character",
@@ -779,7 +779,7 @@ const archives = [
             {
                 role: "Supporting Character",
                 name: "Jansel Kurt G. Ramirez as Friend 1",
-                image: "assets/Casts & Crews/ Ramirez.svg"
+                image: "assets/Casts & Crews/Ramirez.svg"
             },
             {
                 role: "Supporting Character",
@@ -829,7 +829,7 @@ const archives = [
         youtubeId: "",
         poster: "assets/Posters/TakeOut.jpg",
         card: "assets/Cards/Takeout.svg",
-        disc: "assets/Discs/TakeOut.svg",
+        disc: "assets/Discs/Takeout.svg",
         font: "Island Moments, Regular"
     },
     // 15. Placeholder Movie 15
@@ -982,11 +982,7 @@ const archives = [
                 name: "Joshua Ezekiel C. Bolofer",
                 image: "assets/Casts & Crews/Bolofer.svg"
             },
-            {
-                role: "Lead",
-                name: "Actor Name",
-                image: "assets/Casts & Crews/actor_name.jpg"
-            },
+            
             {
                 role: "Side Character",
                 name: "Rainier D. Panganiban as Papa Bobot",
@@ -1191,8 +1187,8 @@ const archives = [
         ],
         youtubeId: "https://www.youtube.com/embed/gBaZiDkZ1sQ?si=ZkPP4xlVNBaBVmIj",
         poster: "assets/Posters/WakeUpCall.jpg",
-        card: "assets/Cards/WakeUpCall.svg",
-        disc: "assets/Discs/WakeUpcall.svg",
+        card: "assets/Cards/WakeUpcall.svg",
+        disc: "assets/Discs/WakeUpCall.svg",
         font: "Dokdo, Regular"
     },
     // 22. Placeholder Movie 22
