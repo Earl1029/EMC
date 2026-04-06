@@ -828,7 +828,7 @@ const archives = [
         ],
         youtubeId: "",
         poster: "assets/Posters/TakeOut.jpg",
-        card: "assets/Cards/TakeOut.svg",
+        card: "assets/Cards/Takeout.svg",
         disc: "assets/Discs/TakeOut.svg",
         font: "Island Moments, Regular"
     },
