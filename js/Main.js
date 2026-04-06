@@ -1192,7 +1192,7 @@ const archives = [
         youtubeId: "https://www.youtube.com/embed/gBaZiDkZ1sQ?si=ZkPP4xlVNBaBVmIj",
         poster: "assets/Posters/WakeUpCall.jpg",
         card: "assets/Cards/WakeUpCall.svg",
-        disc: "assets/Discs/WakeUpCall.svg",
+        disc: "assets/Discs/WakeUpcall.svg",
         font: "Dokdo, Regular"
     },
     // 22. Placeholder Movie 22
