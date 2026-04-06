@@ -252,65 +252,41 @@ const archives = [
         desc: "Mike is determined to honor his late best friend by finishing his final documentary about what makes people truly happy. However, as he digs through the raw footage and retraces Buloy's final days, he begins to realize his friend was hiding a truth no one was prepared to face. Some secrets are better left unedited.",
         cast: [
             {
-                role: "Director",
-                name: "Student C",
-                image: "assets/Casts & Crews/student_c.jpg"
+                role: "Main Character",
+                name: "Edrian Trinidad as Mike",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Lead",
-                name: "Alex Moore",
-                image: "assets/Casts & Crews/alex_moore.jpg"
+                role: "Anti Hero",
+                name: "as Buloy",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Support",
-                name: "Rina Patel",
-                image: "assets/Casts & Crews/rina_patel.jpg"
+                role: "Extra 1",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Family Member",
-                name: "David Chen",
-                image: "assets/Casts & Crews/david_chen.jpg"
+                role: "Extra 2",
+                name: "Yesseniah Hernandez",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Rescue Worker",
-                name: "Sgt. Johnson",
-                image: "assets/Casts & Crews/sgt_johnson.jpg"
+                role: "Extra 3",
+                name: "Shane Macabatao",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Doctor",
-                name: "Dr. Emily White",
-                image: "assets/Casts & Crews/dr_emily_white.jpg"
+                role: "Supporting Character",
+                name: "Elyanna Kirsten Her",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Neighbor",
-                name: "Mrs. Garcia",
-                image: "assets/Casts & Crews/mrs_garcia.jpg"
+                role: "Supporting Character",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
             },
-            {
-                role: "Journalist",
-                name: "Mike Torres",
-                image: "assets/Casts & Crews/mike_torres.jpg"
-            },
-            {
-                role: "Government Rep",
-                name: "Agent Blake",
-                image: "assets/Casts & Crews/agent_blake.jpg"
-            },
-            {
-                role: "Child Actor",
-                name: "Tommy Young",
-                image: "assets/Casts & Crews/tommy_young.jpg"
-            },
-            {
-                role: "Voice Actor",
-                name: "Sarah Kim",
-                image: "assets/Casts & Crews/sarah_kim.jpg"
-            },
-            {
-                role: "Composer",
-                name: "Storm Sounds",
-                image: "assets/Casts & Crews/storm_sounds.jpg"
-            }
+            
         ],
         youtubeId: "https://www.youtube.com/embed/gH5biGh0Vnk?si=zQSpu6lQ5JkIla3A",
         poster: "assets/posters/Buloy.svg",
@@ -370,65 +346,36 @@ const archives = [
         desc: "Mark is haunted by the memories of a girl who was once his world, only to realize that time has a cruel way of blurring the line between past and present. A poignant look at love, loss, and the realization that some people are meant to stay in our hearts, even if they can't stay in our lives.",
         cast: [
             {
-                role: "Director",
-                name: "Student E",
-                image: "assets/Casts & Crews/student_e.jpg"
+                role: "Main Character",
+                name: "Lowell Jay Malinao as Mark",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Lead",
-                name: "Aria Fox",
-                image: "assets/Casts & Crews/aria_fox.jpg"
+                role: "Female Lead",
+                name: "Erika Mae Gojo as Grace",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Support",
-                name: "Leon Hart",
-                image: "assets/Casts & Crews/leon_hart.jpg"
+                role: "Supporting Character",
+                name: "Christian Biligan as Christian",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "AI Entity",
-                name: "Nexus Core",
-                image: "assets/Casts & Crews/nexus_core.jpg"
+                role: "Supporting Character",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Corporate Exec",
-                name: "Mr. Voss",
-                image: "assets/Casts & Crews/mr_voss.jpg"
+                role: "Supporting Character",
+                name: "Shyra Bison as Shyra",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Scientist",
-                name: "Dr. Quantum",
-                image: "assets/Casts & Crews/dr_quantum.jpg"
+                role: "Supporting Character",
+                name: "Jovelisa Malabanan as Jovelisa",
+                image: "assets/Casts & Crews/1.svg"
             },
-            {
-                role: "Security Guard",
-                name: "Agent Zero",
-                image: "assets/Casts & Crews/agent_zero.jpg"
-            },
-            {
-                role: "Virtual Being",
-                name: "Echo Ghost",
-                image: "assets/Casts & Crews/echo_ghost.jpg"
-            },
-            {
-                role: "Tech Support",
-                name: "Byte Master",
-                image: "assets/Casts & Crews/byte_master.jpg"
-            },
-            {
-                role: "Memory Specialist",
-                name: "Mind Reader",
-                image: "assets/Casts & Crews/mind_reader.jpg"
-            },
-            {
-                role: "Narrator",
-                name: "System Voice",
-                image: "assets/Casts & Crews/system_voice.jpg"
-            },
-            {
-                role: "Soundtrack",
-                name: "Digital Waves",
-                image: "assets/Casts & Crews/digital_waves.jpg"
-            }
+           
         ],
         youtubeId: "https://tube.rvere.com/embed?v=o2-d2rpsIt0&start=0",
         poster: "assets/posters/Grace.svg",
@@ -547,66 +494,73 @@ const archives = [
         tags: ["Thriller"],
         desc: "When a new fragrance promises to solve all of a young man's social problems, he finds himself caught between his desire to be noticed and his true self. An experimental look at identity, confidence, and the masks we wear to fit in.",
         cast: [
+            
             {
-                role: "Director",
-                name: "Student F",
-                image: "assets/Casts & Crews/student_f.jpg"
+                role: "Main Character",
+                name: "Granth Nikko Amigo as Nikko",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Lead",
-                name: "Emi Luna",
-                image: "assets/Casts & Crews/emi_luna.jpg"
+                role: "Female Lead",
+                name: "Hanna Joy Lagasca",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Support",
-                name: "Theo Song",
-                image: "assets/Casts & Crews/theo_song.jpg"
+                role: "Side Character 1",
+                name: "John Vincent Idio as Vincent",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Spirit Guide",
-                name: "Elder Light",
-                image: "assets/Casts & Crews/elder_light.jpg"
+                role: "Side Character 2",
+                name: "Alexis Salamanes as Alexis",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Dark Machine",
-                name: "Void Entity",
-                image: "assets/Casts & Crews/void_entity.jpg"
+                role: "Side Character 3",
+                name: "Erenz Tayag as Erenz",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Color Guardian",
-                name: "Prism Keeper",
-                image: "assets/Casts & Crews/prism_keeper.jpg"
+                role: "Side Character 4",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Young Spirit",
-                name: "Spark Child",
-                image: "assets/Casts & Crews/spark_child.jpg"
+                role: "Supporting Character",
+                name: "Cruz, Asi Sheikh as PaPa Cologne",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Forest Spirit",
-                name: "Tree Mother",
-                image: "assets/Casts & Crews/tree_mother.jpg"
+                role: "Director/Scriptwriter",
+                name: "Inna Tablizo as Inna",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Voice Actor",
-                name: "Luna Voice",
-                image: "assets/Casts & Crews/luna_voice.jpg"
+                role: "Supporting Character",
+                name: "Rexsander Torres as Drummer",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Animator",
-                name: "Art Team",
-                image: "assets/Casts & Crews/art_team.jpg"
+                role: "Supporting Character",
+                name: "Russel Mendoza as Bassist",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Composer",
-                name: "Melody Maker",
-                image: "assets/Casts & Crews/melody_maker.jpg"
+                role: "Supporting Character",
+                name: "Charles Justin Abion as Guitarist",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Sound Effects",
-                name: "Nature Sounds",
-                image: "assets/Casts & Crews/nature_sounds.jpg"
+                role: "Extra",
+                name: "John Mathew S. Donato",
+                image: "assets/Casts & Crews/Donato.svg"
+            },
+            {
+                role: "Extra",
+                name: "Arr Chile Andrhei P. Evangelista",
+                image: "assets/Casts & Crews/Evangelista.svg"
             }
+            
         ],
         youtubeId: "https://tube.rvere.com/embed?v=bd6MdEXoBPQ&start=0",
         poster: "assets/posters/UnseenSelf.svg",
@@ -1083,15 +1037,35 @@ const archives = [
         desc: "A cinematic exploration of the inability to feel pleasure, where the world loses its color and every moment feels like a struggle against the void. A visually striking journey through the internal landscape of a mind seeking to feel again.",
         cast: [
             {
-                role: "Director",
-                name: "Director Name",
-                image: "assets/Casts & Crews/director_name.jpg"
-            },
+                role: "Main Character",
+                name: "Hanna Joy Lagasca as Hanna",
+                image: "assets/Casts & Crews/Lagasca.svg"
+            }, 
             {
-                role: "Lead",
-                name: "Actor Name",
-                image: "assets/Casts & Crews/actor_name.jpg"
-            }
+                role: "Supporting Character",
+                name: "Yesseniah Hernandez as Yesseniah",
+                image: "assets/Casts & Crews/HernandezY.svg"
+            }, 
+            {
+                role: "Supporting Character",
+                name: "Erika Mae Gojo",
+                image: "assets/Casts & Crews/Gojo.svg"
+            }, 
+            {
+                role: "Supporting Character",
+                name: "Inna Tablizo as Inna",
+                image: "assets/Casts & Crews/Tablizo.svg"
+            }, 
+            {
+                role: "Supporting Character",
+                name: "Jovelisa Malabanan as Therapist",
+                image: "assets/Casts & Crews/1.svg"
+            }, 
+            {
+                role: "Supporting Character",
+                name: "Christian Biligan as Christian",
+                image: "assets/Casts & Crews/1.svg"
+            },
         ],
         youtubeId: "https://tube.rvere.com/embed?v=xOP80ydBqC8&start=0",
         poster: "assets/posters/Anhedonia.svg",
@@ -1112,14 +1086,14 @@ const archives = [
         desc: "As the room empties and the deadline looms, a student realizes they aren't as alone as they thought. A tense, atmospheric short that proves the scariest thing about a deadline is what happens after the sun goes down.",
         cast: [
             {
-                role: "Director",
-                name: "Director Name",
-                image: "assets/Casts & Crews/director_name.jpg"
+                role: "Main Character",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Lead",
-                name: "Actor Name",
-                image: "assets/Casts & Crews/actor_name.jpg"
+                role: "Side Character",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
             }
         ],
         youtubeId: "https://www.youtube.com/embed/T5JIrlKGuiE?si=JYh6lMoEA78vOAL5",
@@ -1142,13 +1116,38 @@ const archives = [
         cast: [
             {
                 role: "Director",
-                name: "Director Name",
-                image: "assets/Casts & Crews/director_name.jpg"
+                name: "Jasmine Jireh Zamora",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Lead",
-                name: "Actor Name",
-                image: "assets/Casts & Crews/actor_name.jpg"
+                role: "Male Lead",
+                name: "Granth Nikko Amigo as Nico",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Female Lead",
+                name: "Shane Macabatao as Shane",
+                image: "assets/Casts & Crews/Macabatao.svg"
+            },
+            {
+                role: "Extra",
+                name: "Karen Kate Bansale",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Extra",
+                name: "Christian Biligan",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Extra",
+                name: "Yesseniah Hernandez",
+                image: "assets/Casts & Crews/HernandezY.svg"
+            },
+            {
+                role: "Video Editor",
+                name: "Alf Remeses Guisinga",
+                image: "assets/Casts & Crews/1.svg"
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=_LIs6Crta1I&start=0",
@@ -1170,14 +1169,24 @@ const archives = [
         desc: "A routine morning becomes a surreal experience when a simple alarm clock fails to do its job. A short, punchy look at the blurred lines between dreams and the reality of a student's busy schedule.",
         cast: [
             {
-                role: "Director",
-                name: "Director Name",
-                image: "assets/Casts & Crews/director_name.jpg"
+                role: "Main Character",
+                name: "Lowell Jay Malinao",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Lead",
-                name: "Actor Name",
-                image: "assets/Casts & Crews/actor_name.jpg"
+                role: "Director",
+                name: "Karen Kate Bansale",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Camera Operator",
+                name: "Christian Biligan",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Script Writer",
+                name: "Erika Mae Gojo",
+                image: "assets/Casts & Crews/1.svg"
             }
         ],
         youtubeId: "https://www.youtube.com/embed/gBaZiDkZ1sQ?si=ZkPP4xlVNBaBVmIj",
@@ -1200,13 +1209,23 @@ const archives = [
         cast: [
             {
                 role: "Director",
-                name: "Director Name",
-                image: "assets/Casts & Crews/director_name.jpg"
+                name: "Hanna Joy Lagasca",
+                image: "assets/Casts & Crews/Lagasca.svg"
             },
             {
-                role: "Lead",
-                name: "Actor Name",
-                image: "assets/Casts & Crews/actor_name.jpg"
+                role: "Video Editor",
+                name: "Asi Sheikh Cruz",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Main Character",
+                name: "Erenz Tayag as Erenz",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Side Character",
+                name: "John Vincent Idio as Vincent",
+                image: "assets/Casts & Crews/1.svg"
             }
         ],
         youtubeId: "https://www.youtube.com/embed/C5pwbDFvzuE?si=CO9f99btp9iuVvBS",
@@ -1229,13 +1248,23 @@ const archives = [
         cast: [
             {
                 role: "Director",
-                name: "Director Name",
-                image: "assets/Casts & Crews/director_name.jpg"
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Lead",
-                name: "Actor Name",
-                image: "assets/Casts & Crews/actor_name.jpg"
+                role: "Video Editor",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Main Character",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
+            },
+            {
+                role: "Side Character",
+                name: "?",
+                image: "assets/Casts & Crews/1.svg"
             }
         ],
         youtubeId: "https://www.youtube.com/embed/CJ3A7KAYeiA?si=tqox2IUSfWg9muhA",
@@ -1258,13 +1287,87 @@ const archives = [
         cast: [
             {
                 role: "Director",
-                name: "Director Name",
-                image: "assets/Casts & Crews/director_name.jpg"
+                name: "Ranny Araneta",
+                image: "assets/Casts & Crews/1.svg"
             },
             {
-                role: "Lead",
-                name: "Actor Name",
-                image: "assets/Casts & Crews/actor_name.jpg"
+                role: "Camera Operator",
+                name: "Marnelle Ibarra Jr.",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Main Character",
+                name: "Granth Nikko Amigo as Domeng",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Side Character",
+                name: "Erenz Tayag as Domeng\’s friend",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Supporting Character",
+                name: "Arvin Malok as Tatay Bornok",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Extra",
+                name: "Christ Jhunelle Leonardo as Victim 1",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Extra",
+                name: "Lowell Jay Malinao as Victim 2",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Extra",
+                name: "Nathan Tagulao as Victim 3",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Extra",
+                name: "John Vincent Idio as Victim 4",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Extra",
+                name: "Marnelle Ibarra Jr. as Victim 5",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Extra",
+                name: "John Vincent Idio as Gay",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Side Character",
+                name: "Kirk Calanoga as Police 1",
+                image: "assets/Casts & Crews/1.svg"
+            
+            },
+            {
+                role: "Side Character",
+                name: "Rexsander Torres as Police 2",
+                image: "assets/Casts & Crews/1.svg"
+            
+            }
+            ,
+            {
+                role: "Side Character",
+                name: "Leynard Andula as Buyer",
+                image: "assets/Casts & Crews/1.svg"
+            
             }
         ],
         youtubeId: "https://tube.rvere.com/embed?v=ofGdlmDYTZs&start=0",
