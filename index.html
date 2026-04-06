@@ -6,7 +6,7 @@
     <title>EMC+ </title>
     <link rel="icon" href="assets/Icon/EMC+ Logo.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bruno+Ace+SC&family=Agdasima:wght@400;700&family=BhuTuka+Expanded+One&family=Crushed&family=Diphylleia&family=Zeyada&family=Homemade+Apple&family=Geostar+Fill&family=Bungee:wght@300;400;700&family=Allison&family=Island+Moments&family=Crimson+Text:wght@400;600&family=Delicious+Handrawn&family=Faster+One&family=Finger+Paint&family=Ephesis&family=Dokdo&family=East+Sea+Dokdo&family=Diplomata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="body" class="bg-[#050505] text-white font-['Agdasima'] transition-colors duration-500 overflow-x-hidden">
@@ -26,7 +26,7 @@
                 <div class="md:hidden">
                     <button id="mobile-menu-btn" class="text-2xl">☰</button>
                 </div>
-                <div class="flex items-center">
+                <div class="flex items-center relative">
                     <input type="text" id="search-input" placeholder="Search films..." 
                         class="w-0 opacity-0 bg-white/10 border border-white/20 rounded-full py-1 text-sm focus:outline-none focus:border-[#8024d1] transition-all duration-500 placeholder-gray-400 focus:w-48 md:focus:w-64 focus:opacity-100 focus:px-4 pr-8">
                     <button id="clear-search-btn" class="hidden absolute right-12 text-white/60 hover:text-white text-sm mr-1">✕</button>
@@ -54,7 +54,7 @@
             <img src="assets/Hero/CryMachineHero.svg" class="w-full h-full object-cover opacity-90" alt="Cry Machine Hero">
         </div>
         <section class="relative z-20 max-w-2xl">
-            <h1 class="font-['Anta'] text-6xl md:text-8xl mb-4 tracking-widest uppercase title-text">Cry Machine</h1>
+            <h1 class="font-['Anta'] text-6xl md:text-8xl mb-4 tracking-widest title-text">Cry Machine</h1>
             <div class="flex items-center gap-4 text-xl mb-6 text-gray-400">
                 <span>2025</span>
                 <span class="px-3 py-0.5 border border-white/20 rounded-full text-sm">Movie</span>
@@ -69,7 +69,7 @@
         </section>
     </main>
 
-    <div class="relative z-30 -mt-12 space-y-16 pb-20 bg-gradient-to-b from-[#170021]">
+    <div class="relative z-30 -mt-12 space-y-16 pb-20 animated-bg">
         <section class="relative group w-full overflow-hidden">
             <h2 class="text-3xl font-bold text-white mb-6 px-[5%]">Recommended</h2>
             <button class="scroll-arrow left-0" data-row="rec-row" data-dir="left" aria-label="Scroll recommended left">❮</button>
@@ -138,31 +138,31 @@
         </div>
     </div>
 
-    <div id="my-list-page" class="hidden min-h-screen bg-[#050505] flex items-center justify-center">
+    <div id="my-list-page" class="hidden min-h-screen bg-[#050505] flex items-center justify-center animated-bg page-content">
         <div class="text-center text-white">
-            <h1 class="text-4xl font-bold mb-4">My List</h1>
+            <h1 class="text-4xl font-bold mb-4 page-heading">My List</h1>
             <p class="text-xl">Your list is empty.</p>
-            <button id="back-home-from-list" class="mt-4 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+            <button id="back-home-from-list" class="-mt-2 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
         </div>
     </div>
 
-    <div id="history-page" class="hidden min-h-screen bg-[#050505] flex items-center justify-center">
+    <div id="history-page" class="hidden min-h-screen bg-[#050505] flex items-center justify-center animated-bg page-content">
         <div class="text-center text-white">
-            <h1 class="text-4xl font-bold mb-4">History</h1>
+            <h1 class="text-4xl font-bold mb-4 page-heading">History</h1>
             <p class="text-xl">No history available.</p>
-            <button id="back-home-from-history" class="mt-4 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+            <button id="back-home-from-history" class="-mt-2 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
         </div>
     </div>
 
-    <div id="movie-details-page" class="hidden min-h-screen text-white overflow-y-auto">
+    <div id="movie-details-page" class="hidden min-h-screen text-white overflow-y-auto page-content">
         <div class="details-overlay"></div>
 
         <section class="movie-details-hero min-h-screen flex items-center">
             <div class="container mx-auto px-4 py-12">
-                <button id="back-home-from-details" class="mb-6 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
+                <button id="back-home-from-details" class="-mt-2 px-4 py-2 bg-[#8024d1] text-white rounded" aria-label="Back to home">Back to Home</button>
                 <div class="grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
                     <div>
-                        <h1 id="details-title" class="font-['Anta'] text-6xl md:text-8xl mb-4 tracking-widest uppercase">Cry Machine</h1>
+                        <h1 id="details-title" class="details-title text-6xl md:text-8xl mt-12 mb-4 tracking-widest">Cry Machine</h1>
                         <div class="flex flex-wrap items-center gap-4 text-xl mb-6 text-gray-300">
                             <span id="details-year">2025</span>
                             <span id="details-type" class="px-3 py-0.5 border border-white/20 rounded-full text-sm">Movie</span>
@@ -190,7 +190,7 @@
                     <div class="relative group">
                         <button class="scroll-arrow left-0" data-row="details-cast-row" data-dir="left" aria-label="Scroll cast left">❮</button>
                         <button class="scroll-arrow right-0" data-row="details-cast-row" data-dir="right" aria-label="Scroll cast right">❯</button>
-                        <div id="details-cast-row" class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
+                        <div id="details-cast-row" class="flex gap-8 overflow-x-auto pb-4 scrollbar-hide">
                             <div class="cast-member flex-shrink-0">
                                 <div class="member-role">Director</div>
                                 <div class="member-circle">

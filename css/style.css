@@ -20,12 +20,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+    opacity: 0.6;
     transition: 0.3s;
     cursor: pointer;
-    margin-top: 20px;
 }
-.group:hover .scroll-arrow { opacity: 0.8; }
+
+.scroll-arrow.left-0 {
+    left: 0;
+}
+
+.scroll-arrow.right-0 {
+    right: 0;
+}
+.group:hover .scroll-arrow { opacity: 1; }
 .scroll-arrow:hover { color: #8024d1; opacity: 1 !important; }
 
 /* Navbar Hover */
@@ -36,7 +43,26 @@
 }
 .nav-item:hover {
     color: #8024d1;
-    text-shadow: 0 0 10px rgba(128, 36, 209, 0.5);
+    text-shadow: 0 0 10px rgba(142, 166, 55, 0.5);
+}
+
+/* Lock assets from dragging */
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: auto;
+}
+
+/* Drag-to-scroll containers */
+[id$="-row"] {
+    cursor: grab;
+}
+
+[id$="-row"]:active {
+    cursor: grabbing;
 }
 
 /* Card Hover Logic - revealed only on hover */
@@ -73,16 +99,40 @@
     pointer-events: none;
 }
 
+.page-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media (min-width: 768px) {
+    .page-content {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+.title-text,
+.details-title,
+.page-heading,
+.genre-title {
+    font-family: 'Anta', sans-serif;
+}
+
+.page-heading {
+    font-family: 'Bruno Ace SC', cursive;
+}
+
 /* Movie details page background and scroll */
 #movie-details-page {
     position: relative;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #movie-details-page .details-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(5,5,5,0.55), rgba(5,5,5,0.78));
+    background: linear-gradient(to bottom, rgba(141, 2, 180, 0.55), rgba(5,5,5,0.78));
     pointer-events: none;
     z-index: 1;
     transition: background 0.3s ease;
@@ -174,6 +224,8 @@
     flex-direction: column;
     align-items: center;
     gap: 0.25rem;
+    min-height: 140px;
+    justify-content: center;
 }
 
 .member-role {
@@ -185,6 +237,7 @@
     word-wrap: break-word;
     line-height: 1.1;
     font-weight: 500;
+    min-height: 1.1rem;
 }
 
 .member-name {
@@ -195,6 +248,7 @@
     max-width: 90px;
     word-wrap: break-word;
     line-height: 1.2;
+    min-height: 1.2rem;
 }
 
 .spin-slow {
@@ -204,4 +258,39 @@
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
+}
+
+/* Animated Background for Pages */
+.animated-bg {
+    background: linear-gradient(135deg, #050505 0%, #1a0a2e 50%, #050505 100%);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    animation: gradientShift 15s ease infinite;
+    position: relative;
+}
+
+.animated-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='topography' x='0' y='0' width='20' height='20' patternUnits='userSpaceOnUse'%3E%3Cpath d='M0 10 Q5 0 10 10 T20 10 V20 H0 Z' fill='%238024d1' fill-opacity='0.1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23topography)'/%3E%3C/svg%3E");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    animation: patternFlow 10s linear infinite;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes patternFlow {
+    0% { background-position: 0 0; }
+    100% { background-position: -100px -100px; }
 }
